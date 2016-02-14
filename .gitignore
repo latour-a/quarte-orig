@@ -1,0 +1,5 @@
+.DS_Store
+_site/
+__pycache__/
+_src/data/download/
+_src/data/output/

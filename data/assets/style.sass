@@ -1,0 +1,150 @@
+---
+---
+
+// Variables
+
+$main: 18
+$line: 30
+
+
+// Vertical rhythm
+
+=font($size)
+  font-size: #{$size/$main}em
+  line-height: #{$line/$size}
+
+=padding($size, $top:0, $bottom:0, $lateral:0)
+  padding: $top*$line/$size+em $lateral+em $bottom*$line/$size+em
+
+
+// Import
+
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic)
+
+
+// Main elements
+
+*
+  padding: 0
+  margin: 0 auto
+  text-align: justify
+  -webkit-text-size-adjust: none
+
+body
+  font: #{$main/16}em / #{$line/$main} PT Serif, Cambria, Georgia, serif
+  max-width: 38em
+  @media screen and (max-width: 400px)
+    font-size: .875em
+
+
+// Header
+
+.logo a
+  +font(65)
+  +padding(65, 2.5, 1.5)
+  display: block
+  text-align: center
+  color: #ddd
+  &:hover
+    color: #ccc
+
+.header
+  border-bottom: 1px #e2e2e2 solid
+
+  ul
+    font-size: 0
+    text-align: center
+
+    li, a
+      display: inline-block
+
+    a
+      +padding(18, 1, 1, 1.5)
+      font-size: 18px
+      color: #888
+
+      &:hover
+        color: #555
+
+
+// Article
+
+.content
+  +padding(18, 2, 2, 1)
+  color: #555
+
+  h1, h2
+    font-weight: normal
+    text-align: center
+
+  h1
+    +font(30)
+    +padding(30, 1, 1)
+    color: #333
+
+  h2
+    +font(24)
+    +padding(24, 2, 0)
+    color: #444
+
+  p
+    +padding(18,1)
+    text-indent: 2em
+
+
+// Links
+
+a
+  text-decoration: none
+
+  &:active
+    outline: 0
+
+.content
+  a
+    color: inherit
+    border-bottom: 1px solid #bbb
+
+    &:hover
+      color: #000
+      border-color: #777
+
+
+// Lists
+
+.content
+
+  ul, ol
+    +padding(18, .5, .5)
+    counter-reset: item
+
+  li
+    text-align: left
+    margin-left: 4em
+    list-style-type: none
+    text-indent: -1.36em
+
+    &:before
+      color: #bbb
+
+  ul li:before
+    content: "–\00a0\00a0\00a0"
+
+  ol li:before
+    content: counter(item) ".\00a0\00a0\00a0"
+    counter-increment: item
+
+// Maps
+
+.map
+  margin-top: 30px
+  height: 570px
+  background: #F5F5F3
+
+  li
+    margin: 0
+
+// Maths
+
+#MathJax_Zoom
+  display: none !important

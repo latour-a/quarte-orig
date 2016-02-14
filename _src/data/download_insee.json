@@ -1,0 +1,651 @@
+{
+    "Analyse fonctionnelle des emplois et cadres des fonctions métropolitaines": {
+        "data": {
+            "DONNEES_2011": {
+                "columns": ["A", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB"],
+                "index": "CODGEO",
+                "rows": 11
+            }
+        },
+        "file": "Analyse_Fonctionnelle_Donnees_communales_2011_Geo2013.xls",
+        "h5_key": "analyse_emplois2011",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/analyse/Analyse_Fonctionnelle_Donnees_communales_2011_Geo2013.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C"],
+            "rows": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+            "sheet": "Variables"
+        }
+    },
+    "Base chiffres clés - caractéristiques de l'emploi 2011": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BT", "BU", "BV", "BW", "BX"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BT", "BU", "BV", "BW", "BX"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "base-cc-carac-emploi-2011.xls",
+        "h5_key": "emploi2011",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/rp2011/chiffres-cles/base-cc-caract-emploi-2011/base-cc-caract-emploi-2011.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C", "D"],
+            "rows": 11,
+            "sheet": "Liste des variables"
+        }
+    },
+    "Base chiffres clés - couples - familles - ménages 2011": {
+        "data": {
+            "ARM_2011": {
+                "columns": ["A", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BN", "BO", "BP", "BQ", "BR", "BS", "BT", "BU", "BV", "BW", "BX", "BY", "BZ", "CA", "CB", "CC", "CD"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM_2011": {
+                "columns": ["A", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BN", "BO", "BP", "BQ", "BR", "BS", "BT", "BU", "BV", "BW", "BX", "BY", "BZ", "CA", "CB", "CC", "CD"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "base-cc-coupl-fam-men-2011.xls",
+        "h5_key": "familles2011",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/rp2011/chiffres-cles/base-cc-couples-familles-menages-2011/base-cc-coupl-fam-men-2011.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C", "D"],
+            "rows": 5,
+            "sheet": "Variables_2011"
+        }
+    },
+    "Base chiffres clés - diplômes - formation 2011": {
+        "data": {
+            "ARM_2011": {
+                "columns": ["A", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BN", "BO", "BP", "BQ", "BR"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM_2011": {
+                "columns": ["A", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BN", "BO", "BP", "BQ", "BR"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "base-cc-diplomes-formation-2011.xls",
+        "h5_key": "diplomes2011",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/rp2011/chiffres-cles/base-cc-diplomes-formation-2011/base-cc-diplomes-formation-2011.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C", "D"],
+            "rows": 5,
+            "sheet": "Variables_2011"
+        }
+    },
+    "Base chiffres clés - emploi - population active 2011": {
+        "data": {
+            "ARM_2011": {
+                "columns": ["A", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BN", "BO", "BP", "BQ", "BR", "BS", "BT", "BU", "BV", "BW", "BX", "BY", "BZ", "CA", "CB", "CC", "CD", "CE", "CF", "CG", "CH", "CI", "CJ", "CK", "CL", "CM", "CN", "CO", "CP", "CQ", "CR", "CS", "CT", "CU", "CV", "CW", "CX", "CY", "CZ", "DA", "DB", "DC", "DD", "DE", "DF", "DG", "DH", "DI", "DJ", "DK", "DL"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM_2011": {
+                "columns": ["A", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BN", "BO", "BP", "BQ", "BR", "BS", "BT", "BU", "BV", "BW", "BX", "BY", "BZ", "CA", "CB", "CC", "CD", "CE", "CF", "CG", "CH", "CI", "CJ", "CK", "CL", "CM", "CN", "CO", "CP", "CQ", "CR", "CS", "CT", "CU", "CV", "CW", "CX", "CY", "CZ", "DA", "DB", "DC", "DD", "DE", "DF", "DG", "DH", "DI", "DJ", "DK", "DL"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "base-cc-emploi-pop-active-2011.xls",
+        "h5_key": "population_active2011",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/rp2011/chiffres-cles/base-cc-emploi-pop-active-2011/base-cc-emploi-pop-active-2011.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C", "D"],
+            "rows": 5,
+            "sheet": "Variables_2011"
+        }
+    },
+    "Base chiffres clés - logement 2011": {
+        "data": {
+            "ARM_2011": {
+                "columns": ["A", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BT", "BU", "BV", "BW"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM_2011": {
+                "columns": ["A", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BT", "BU", "BV", "BW"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "base-cc-logement-2011.xls",
+        "h5_key": "logement2011",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/rp2011/chiffres-cles/base-cc-logement-2011/base-cc-logement-2011.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C", "D"],
+            "rows": 5,
+            "sheet": "Variables_2011"
+        }
+    },
+    "Base chiffres clés - évolution et structure de la population 2011": {
+        "data": {
+            "ARM_2011": {
+                "columns": ["A", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BN", "BO", "BP", "BQ", "BR", "BS", "BT", "BU", "BV", "BW", "BX", "BY", "BZ", "CA", "CB", "CC", "CD", "CE", "CF", "CG", "CH", "CI", "CJ", "CK", "CL", "CM", "CN", "CO", "CP", "CQ", "CR", "CS", "CT", "CU", "CV", "CW", "CX", "CY", "CZ", "DA", "DB", "DC", "DD"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM_2011": {
+                "columns": ["A", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BN", "BO", "BP", "BQ", "BR", "BS", "BT", "BU", "BV", "BW", "BX", "BY", "BZ", "CA", "CB", "CC", "CD", "CE", "CF", "CG", "CH", "CI", "CJ", "CK", "CL", "CM", "CN", "CO", "CP", "CQ", "CR", "CS", "CT", "CU", "CV", "CW", "CX", "CY", "CZ", "DA", "DB", "DC", "DD"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "base-cc-evol-struct-pop-2011.xls",
+        "h5_key": "population_structure2011",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/rp2011/chiffres-cles/base-cc-evol-struct-pop-2011/base-cc-evol-struct-pop-2011.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C", "D"],
+            "rows": 5,
+            "sheet": "Variables_2011"
+        }
+    },
+    "Capacité des communes en hébergement touristique": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM": {
+                "columns": ["A", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "base-cc-tourisme-2015.xls",
+        "h5_key": "tourisme2015",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/base-cc-tourisme/base-cc-tourisme-2015.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C"],
+            "rows": 5,
+            "sheet": "Variables"
+        }
+    },
+    "Caractéristiques des entreprises et des établissements au 31 décembre 2012": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BN", "BO", "BP", "BQ", "BR", "BS", "BT", "BU", "BV", "BW", "BX", "BY", "BZ", "CA", "CB", "CC", "CD", "CE", "CF", "CG", "CH", "CI", "CJ", "CK", "CL", "CM", "CN", "CO", "CP", "CQ", "CR", "CS", "CT", "CU", "CV", "CW"],
+                "index": "CODGEO",
+                "rows": 8
+            },
+            "COM": {
+                "columns": ["A", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BN", "BO", "BP", "BQ", "BR", "BS", "BT", "BU", "BV", "BW", "BX", "BY", "BZ", "CA", "CB", "CC", "CD", "CE", "CF", "CG", "CH", "CI", "CJ", "CK", "CL", "CM", "CN", "CO", "CP", "CQ", "CR", "CS", "CT", "CU", "CV", "CW"],
+                "index": "CODGEO",
+                "rows": 8
+            }
+        },
+        "file": "base_cc_entr_etab-2012.xls",
+        "h5_key": "entreprises_caracteristiques2012",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/base-cc-entr-etab/base_cc_entr_etab-2012.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C"],
+            "rows": 6,
+            "sheet": "Liste des variables"
+        }
+    },
+    "Chômage par commune, 2012": {
+        "data": {
+            "CHOMA_ARM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BN", "BO", "BP", "BQ", "BR", "BS", "BT", "BU", "BV", "BW", "BX", "CG", "CH", "CI", "CJ", "CK", "CL", "CM", "CN"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "CHOMA_COM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BN", "BO", "BP", "BQ", "BR", "BS", "BT", "BU", "BV", "BW", "BX", "CG", "CH", "CI", "CJ", "CK", "CL", "CM", "CN"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "base-cc-chomage-t3-2012.xls",
+        "h5_key": "chomage2012",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/base-cc-chomage/base-cc-chomage-t3-2012.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C", "D"],
+            "rows": 5,
+            "sheet": "Var_CHOMA"
+        }
+    },
+    "Décès par commune, 2013": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "O"],
+                "index": "DEPCOM",
+                "rows": 6
+            },
+            "COM": {
+                "columns": ["A", "O"],
+                "index": "DEPCOM",
+                "rows": 6
+            }
+        },
+        "file": "ECDECFRA.xls",
+        "h5_key": "deces2013",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/etat-civil-deces/ECDECFRA.xls",
+        "variables_description": {
+            "columns": ["A", "B", "C", "D"],
+            "rows": 5,
+            "sheet": "Liste des variables"
+        }
+    },
+    "Démographie des entreprises": {
+        "data": {
+            "COM": {
+                "columns": ["A", "C", "D", "E", "F", "G", "H", "J", "K", "L", "M", "N", "O", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AL", "AM", "AN", "AO", "AP", "AQ"],
+                "index": "CODGEO",
+                "rows": 7
+            }
+        },
+        "file": "base-cc-demo-entreprises-13.xls",
+        "h5_key": "entreprises_demographie2013",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/base-cc-demo-entreprises/base-cc-demo-entreprises-13.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C", "D"],
+            "rows": 1,
+            "sheet": "Liste des variables"
+        }
+    },
+    "Naissances par commune, 2013": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "O"],
+                "index": "DEPCOM",
+                "rows": 6
+            },
+            "COM": {
+                "columns": ["A", "O"],
+                "index": "DEPCOM",
+                "rows": 6
+            }
+        },
+        "file": "ECNACFRA.xls",
+        "h5_key": "naissances2013",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/etat-civil-naissances/ECNACFRA.xls",
+        "variables_description": {
+            "columns": ["A", "B", "C", "D"],
+            "rows": 5,
+            "sheet": "Liste des variables"
+        }
+    },
+    "Nombre d'équipements des services aux particuliers en 2013": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "equip-serv-particuliers-com-13.xls",
+        "h5_key": "services_particuliers2013",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/equip-serv-particuliers/equip-serv-particuliers-com-13.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C"],
+            "headers": ["VAR_ID",
+                "VAR_LIB",
+                "VAR_LIB_LONG"],
+            "rows": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 33, 34, 35, 36, 37, 39, 40, 41, 42, 44, 45, 46, 47, 48, 49, 51, 52, 53, 54, 55, 56, 57],
+            "sheet": "Liste_variables"
+        }
+    },
+    "Nombre d'équipements et de services dans le domaine de l'action sociale en 2013": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "equip-serv-action-sociale-com-13.xls",
+        "h5_key": "services_social2013",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/equip-serv-action-sociale/equip-serv-action-sociale-com-13.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C"],
+            "headers": ["VAR_ID",
+                "VAR_LIB",
+                "VAR_LIB_LONG"],
+            "rows": [15, 16, 17, 18, 19, 21, 23, 24, 25, 26, 27, 29, 30, 31, 33, 34],
+            "sheet": "Liste_variables"
+        }
+    },
+    "Nombre d'équipements et de services dans le domaine de l'enseignement du 1er degré en 2013": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "equip-serv-ens-1er-degre-com.xls",
+        "h5_key": "services_1erdegre2013",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/equip-serv-ens-1er-degre/equip-serv-ens-1er-degre-com-13.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C"],
+            "headers": ["VAR_ID",
+                "VAR_LIB",
+                "VAR_LIB_LONG"],
+            "rows": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30],
+            "sheet": "Liste_variables"
+        }
+    },
+    "Nombre d'équipements et de services dans le domaine de l'enseignement du second degré en 2013": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "equip-serv-ens-2eme-degre-com-2013.xls",
+        "h5_key": "services_2nddegre2013",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/equip-serv-ens-2eme-degre/equip-serv-ens-2eme-degre-com-13.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C"],
+            "headers": ["VAR_ID",
+                "VAR_LIB",
+                "VAR_LIB_LONG"],
+            "rows": [15, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+            "sheet": "Liste_variables"
+        }
+    },
+    "Nombre d'équipements et de services dans le domaine de l'enseignement supérieur, de la formation et des services de l'éducation en 2013": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "equip-serv-ens-sup-form-serv-com-13.xls",
+        "h5_key": "services_superieur2013",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/equip-serv-ens-sup-form-serv/equip-serv-ens-sup-form-serv-com-13.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C"],
+            "headers": ["VAR_ID",
+                "VAR_LIB",
+                "VAR_LIB_LONG"],
+            "rows": [15, 16, 17, 18, 20, 21, 22, 23, 24, 26, 27, 28, 29, 30, 31, 32, 34, 35],
+            "sheet": "Liste_variables"
+        }
+    },
+    "Nombre d'équipements et de services dans le domaine du commerce en 2013": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "equip-serv-commerce-com.xls",
+        "h5_key": "services_commerces2013",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/equip-serv-commerce/equip-serv-commerce-com-13.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C"],
+            "headers": ["VAR_ID",
+                "VAR_LIB",
+                "VAR_LIB_LONG"],
+            "rows": [15, 16, 17, 19, 20, 21, 22, 23, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39],
+            "sheet": "Liste_variables"
+        }
+    },
+    "Nombre d'équipements et de services dans le domaine du sport, des loisirs et de la culture en 2013": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BN", "BO", "BP", "BQ", "BR", "BS", "BT", "BU", "BV", "BW", "BX", "BY", "BZ", "CA", "CB", "CC", "CD", "CE", "CF", "CG", "CH", "CI", "CJ", "CK"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN", "AO", "AP", "AQ", "AR", "AS", "AT", "AU", "AV", "AW", "AX", "AY", "AZ", "BA", "BB", "BC", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BK", "BL", "BM", "BN", "BO", "BP", "BQ", "BR", "BS", "BT", "BU", "BV", "BW", "BX", "BY", "BZ", "CA", "CB", "CC", "CD", "CE", "CF", "CG", "CH", "CI", "CJ", "CK"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "equip-sport-loisir-socio-com-13.xls",
+        "h5_key": "services_loisirs2013",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/equip-sport-loisir-socio/equip-sport-loisir-socio-com-13.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C"],
+            "headers": ["VAR_ID",
+                "VAR_LIB",
+                "VAR_LIB_LONG"],
+            "rows": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 88, 89, 90, 91, 92, 93, 95, 96, 97],
+            "sheet": "Liste_variables"
+        }
+    },
+    "Nombre d'équipements et de services dans le domaine du tourisme et du transport en 2013": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "equip-tour-transp-com-13.xls",
+        "h5_key": "services_tourisme2013",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/equip-tour-transp/equip-tour-transp-com-13.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C"],
+            "headers": ["VAR_ID",
+                "VAR_LIB",
+                "VAR_LIB_LONG"],
+            "rows": [15, 16, 17, 18, 19, 21, 22, 23, 24],
+            "sheet": "Liste_variables"
+        }
+    },
+    "Nombre de créations selon la nomenclature agrégée NA en 4 postes": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "Y", "Z", "AA", "AB", "AC"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM": {
+                "columns": ["A", "Y", "Z", "AA", "AB", "AC"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "bases_créations_2009_2013.xls",
+        "h5_key": "creations2013",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/etab-com/bases-creations-2009-2013.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C", "D"],
+            "rows": 5,
+            "sheet": "Liste des variables"
+        }
+    },
+    "Nombre de fonctions médicales et paramédicales en 2013": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM": {
+                "columns": ["A", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AB", "AC", "AD", "AE"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "equip-serv-medical-para-com.xls",
+        "h5_key": "services_medicaux2013",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/equip-serv-medical-para/equip-serv-medical-para-com-13.zip",
+        "variables_description": {
+            "columns": ["A", "B"],
+            "headers": ["VAR_ID",
+                "VAR_LIB"],
+            "rows": [15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 32, 33, 34, 35, 36, 37, 38, 39, 40],
+            "sheet": "Liste_variables"
+        }
+    },
+    "Revenus fiscaux des ménages en 2011": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U"],
+                "index": "CODGEO",
+                "rows": 7
+            },
+            "COM": {
+                "columns": ["A", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U"],
+                "index": "CODGEO",
+                "rows": 7
+            }
+        },
+        "file": "base-cc-rev-fis-loc-menage-2011.xls",
+        "h5_key": "fiscalite_revenus2011",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/base-cc-rev-fisc-loc-menage/base-cc-rev-fis-loc-menage-2011.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C"],
+            "rows": 6,
+            "sheet": "Liste des variables"
+        }
+    },
+    "Revenus imposables et montant des impôts": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "C", "D", "E", "F", "G", "H", "I"],
+                "index": "CODGEO",
+                "rows": 7
+            },
+            "COM": {
+                "columns": ["A", "C", "D", "E", "F", "G", "H", "I"],
+                "index": "CODGEO",
+                "rows": 7
+            }
+        },
+        "file": "base-cc-irpp-11.xls",
+        "h5_key": "fiscalite_impots2011",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/base-cc-irpp-nouv-serie/base-cc-irpp-nouv-serie-11.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C", "D"],
+            "rows": 1,
+            "sheet": "Liste des variables"
+        }
+    },
+    "Résumé statistique des communes françaises": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "I", "K", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN"],
+                "index": "CODGEO",
+                "rows": 7
+            },
+            "COM": {
+                "columns": ["A", "I", "K", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "AA", "AC", "AD", "AE", "AF", "AG", "AH", "AI", "AJ", "AK", "AL", "AM", "AN"],
+                "index": "CODGEO",
+                "rows": 7
+            }
+        },
+        "file": "base-cc-resume-14.xls",
+        "h5_key": "chiffres_cles2014",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/base-cc-resume-stat/base-cc-resume-14.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C"],
+            "rows": 6,
+            "sheet": "Variables"
+        }
+    },
+    "Salaire net horaire moyen selon la catégorie socioprofessionnelle, le sexe et l'âge en 2012": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM": {
+                "columns": ["A", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "base-cc-dads-2012.xls",
+        "h5_key": "salaires2012",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/base-cc-salaire-net-horaire-moyen/base-cc-dads-2012.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C"],
+            "rows": 5,
+            "sheet": "Variables"
+        }
+    },
+    "Sphères présentielle et non présentielle de 1975 à 2011": {
+        "data": {
+            "DONNEES": {
+                "columns": ["A", "G", "H", "I"],
+                "index": "CODGEO",
+                "rows": 10
+            }
+        },
+        "file": "Spheres_Donnees_communales_1975_2011_Geo2013.xls",
+        "h5_key": "presentiel2011",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/sphere/Spheres_Donnees_communales_1975_2011_Geo2013.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C"],
+            "rows": 6,
+            "sheet": "Variables"
+        }
+    },
+    "Stock des établissements par tranche d'effectifs salariés": {
+        "data": {
+            "ARM": {
+                "columns": ["A", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N"],
+                "index": "CODGEO",
+                "rows": 6
+            },
+            "COM": {
+                "columns": ["A", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N"],
+                "index": "CODGEO",
+                "rows": 6
+            }
+        },
+        "file": "base_établissements par tranche d'effectif_2013.xls",
+        "h5_key": "stock2013",
+        "link": "http://www.insee.fr/fr/ppp/bases-de-donnees/donnees-detaillees/etab-com/bases-stock-effectif-2013.zip",
+        "variables_description": {
+            "columns": ["A", "B", "C", "D"],
+            "rows": 5,
+            "sheet": "Liste des variables"
+        }
+    }
+}

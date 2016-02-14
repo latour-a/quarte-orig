@@ -1,0 +1,12 @@
+permalink: /:title/
+
+markdown: redcarpet
+redcarpet:
+  extensions: ['smart']
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default

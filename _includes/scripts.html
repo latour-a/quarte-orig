@@ -1,0 +1,39 @@
+{% capture hide %}
+
+{% if page.script contains "topojson" or page.script contains "choropleth" %}
+  {% capture js %}{{ js }}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>{% endcapture %}
+{% endif %}
+
+{% if page.script contains "d3" or page.script contains "choropleth" %}
+  {% capture js %}{{ js }}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>{% endcapture %}
+{% endif %}
+
+{% if page.script contains "leaflet" or page.script contains "choropleth" %}
+  {% capture css %}{{ css }}
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.1/leaflet.css" rel="stylesheet" />{% endcapture %}
+  {% capture js %}{{ js }}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.1/leaflet.js"></script>{% endcapture %}
+{% endif %}
+
+{% if page.script contains "awesomplete" or page.script contains "choropleth" %}
+  {% capture css %}{{ css }}
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.0.0/awesomplete.min.css" rel="stylesheet" />{% endcapture %}
+  {% capture js %}{{ js }}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.0.0/awesomplete.min.js"></script>{% endcapture %}
+{% endif %}
+
+{% if page.script contains "choropleth" %}
+  {% capture css %}{{ css }}
+  <link href="/data/assets/france/france.css" rel="stylesheet" />{% endcapture %}
+  {% capture js %}{{ js }}
+  <script src="/data/assets/france/france.js"></script>{% endcapture %}
+{% endif %}
+
+{% if page.script contains "mathjax" %}
+  {% capture js %}{{ js }}
+  <script type="text/x-mathjax-config"> MathJax.Hub.Config({ messageStyle: 'none', tex2jax: {inlineMath: [['$','$']]}, showMathMenu: false }); </script>
+  <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML'></script>{% endcapture %}
+{% endif %}
+{% endcapture %}{{ css }}{{ js }}
